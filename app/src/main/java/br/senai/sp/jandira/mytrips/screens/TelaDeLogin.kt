@@ -132,6 +132,7 @@ fun TelaDeLogin(){
                 Button(
                     onClick = {},
                     modifier = Modifier
+                        .padding(10.dp)
                         .height(45.dp),
                     colors = ButtonDefaults.buttonColors(
                         Color(color = 0xFFFF6347)
